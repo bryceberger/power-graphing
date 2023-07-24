@@ -1,0 +1,11 @@
+[package]
+name = "power-graphing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+csv = "1"
+plotters = { version = "0.3", features = ["datetime"] }
+serde = { version = "1", features = ["derive"] }
+thiserror = "1"
