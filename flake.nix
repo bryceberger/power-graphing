@@ -30,7 +30,7 @@
           rustc = toolchain;
         };
         required-pkgs = with pkgs; [
-          pkgconfig fontconfig
+          pkg-config fontconfig
         ];
 
         power-graphing = naersk'.buildPackage {
